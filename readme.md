@@ -1,7 +1,7 @@
 # Object Detection Inference Interface (ODII)
 
-ODII is a Python project designed to provide a common interface for inferring object detection models. This project supports a range of popular object detection   
-models including YOLOX, YOLOv3, YOLOv4, YOLOv6, and YOLOv7.
+ODII is a Python package designed to provide a unified and streamlined interface for running inference on multiple object detection models under one hood. 
+ODII facilitates seamless interaction with a range of popular models, including YOLOX, YOLOv3, YOLOv4, YOLOv6, and YOLOv7, without the need to manage multiple codebases or installation processes.
 
 ## ✨ Features
 
