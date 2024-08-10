@@ -1,0 +1,21 @@
+/__pycache__
+/yolov3/pytorchyolo/__pycache__
+/yolov4/__pycache__
+/yolov6/yolov6/__pycache__
+/yolov7/yolov7/models/__pycache__
+/yolov7/yolov7/utils/__pycache__
+/yolox/exps/default/__pycache__
+/yolox/yolox/__pycache__
+/output
+*.jpg
+*.png
+*.weights
+*.74
+*.cfg
+*.pt
+*.pth
+# *.ipynb
+inference_demo copy.ipynb
+*.__pycache__
+*.ipynb_checkpoints
+model_configs.yaml

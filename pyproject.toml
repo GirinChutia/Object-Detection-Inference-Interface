@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "odii"
+version = "0.0.1"
+description = "Object Detection Inference Interface"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["opencv-python==4.8.0.76","matplotlib==3.7.2",
+"tabulate==0.9.0","loguru==0.7.2",
+"pycocotools==2.0.7","tqdm==4.66.1",
+"imgaug==0.4.0","pandas==2.0.3","seaborn==0.12.2",
+"PyYAML==6.0.1"]
+authors = [{ name = "Girin Chutia", email = "girin.iitm@gmail.com" }]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev=['jupyter']
