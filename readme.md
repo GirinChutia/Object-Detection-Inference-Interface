@@ -44,8 +44,8 @@ models including YOLOX, YOLOv3, YOLOv4, YOLOv6, and YOLOv7.
 2. **Clone the Repository and Install Dependencies**:
 
    ```bash
-   git clone https://github.com/yourusername/odii.git
-   cd odii
+   git clone https://github.com/GirinChutia/Object-Detection-Inference-Interface.git
+   cd Object-Detection-Inference-Interface
    python -m pip install -e .
    ```
 
@@ -59,7 +59,9 @@ from odii import INFERENCE, plot_results, load_classes, load_yaml
 # Load the classnames
 classnames = load_classes('coco.names') # ['person','bicycle','car', ... ]
 
-# Set the model paths & configs
+# Set the model paths & configs 
+# (COCO Pretrained weights can be downloaded from links provided in "Reference for COCO Pretrained Weights" section)
+
 model_config = {'yolov7': {'weights': 'weights/yolov7/yolov7.pt',
                            'config': None},
                 'yolov4': {'weights': 'weights/yolov4/yolov4.weights',
@@ -68,7 +70,7 @@ model_config = {'yolov7': {'weights': 'weights/yolov7/yolov7.pt',
 device = 'cuda'
 
 # Input image path
-image_path = 'tests/images/test2.jpg'
+image_path = 'tests/images/test_image.jpg'
 
 # --- Infer yolov7 model ---
 
