@@ -6,7 +6,7 @@ from typing import Tuple
 from typing import Any
 import cv2
 import yaml
-from plotting_utils import plot_results
+from .plotting_utils import plot_results
 
 src_path = os.path.dirname(os.path.abspath(__file__))
 

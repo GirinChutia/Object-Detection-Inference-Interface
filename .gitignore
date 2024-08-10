@@ -1,4 +1,6 @@
 /__pycache__
+__pycache__/
+**/__pycache__/
 /yolov3/pytorchyolo/__pycache__
 /yolov4/__pycache__
 /yolov6/yolov6/__pycache__
@@ -7,15 +9,15 @@
 /yolox/exps/default/__pycache__
 /yolox/yolox/__pycache__
 /output
-*.jpg
-*.png
+/src/odii/__pycache__
+/src/odii/yolox/exps/default/__pycache__
 *.weights
 *.74
 *.cfg
 *.pt
 *.pth
-# *.ipynb
 inference_demo copy.ipynb
 *.__pycache__
 *.ipynb_checkpoints
+*.odii.egg-info
 model_configs.yaml
